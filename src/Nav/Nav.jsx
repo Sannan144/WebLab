@@ -18,7 +18,7 @@ useGSAP(()=>{
 })
   return (
     <>
-      <nav className='nav overflow-hidden text-white py-5 flex justify-between items-center fixed top-0 w-full pr-10 z-[50]'>
+      <nav className='nav overflow-hidden text-white py-5 flex justify-between items-center fixed top-0 w-full max-w-[1600px] pr-10 z-[50]'>
         
         <h1 className='text-3xl font-[Raleway] font-bold'>WebLab</h1>
         

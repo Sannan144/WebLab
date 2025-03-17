@@ -4,7 +4,7 @@ const AboutCard = ({heading,text,width}) => {
   return (
     <>
 <div
-  className={`${width ? 'w-96 sm:w-[500px] md:w-[45vw] max-w-[825]' : 'w-96 sm:w-[500px] md:w-[30vw] max-w-[550px]'} h-64 duration-500 group overflow-hidden relative rounded-3xl bg-[#1F1F1F] text-neutral-50 p-4 flex flex-col justify-evenly select-none`}
+  className={`${width ? 'w-96 sm:w-[500px] md:w-[45vw] max-w-[825px]' : 'w-96 sm:w-[500px] md:w-[30vw] max-w-[550px]'} h-64 duration-500 group overflow-hidden relative rounded-3xl bg-[#1F1F1F] text-neutral-50 p-4 flex flex-col justify-evenly select-none sticky top-10`}
 >
   <div
     className="absolute blur duration-500 group-hover:blur-none w-72 h-72 rounded-full group-hover:translate-x-12 group-hover:translate-y-12 bg-[#0da34e] right-1 -bottom-24"

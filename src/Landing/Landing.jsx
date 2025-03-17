@@ -11,7 +11,7 @@ const Landing = ({ heading, parg }) => {
           <h1 ref={heading} className='capitalize w-full sm:w-[76%] md:w-[70%] text-[clamp(50px,6.5vw,100px)] font-extrabold font-[Raleway] leading-none tracking-tighter break-all overflow-hidden'>
             {wrapLettersInSpan('ux-first design agency for b2b + ai companies')}
           </h1>
-          <p className='.landing-text-parag font-[Poppins] sm:text-lg md:text-[1.3vw] overflow-hidden'>
+          <p className='.landing-text-parag font-[Poppins] text-[clamp(16px,1.3vw,25px)] overflow-hidden break-all'>
             <span ref={parg} className="inline-block">We launch <span className='text-[#0DA34E]'>MVPs</span> redefine existing products & continuously dive into <span className='text-[#0DA34E]'>customer development</span></span>
           </p>
       </div>

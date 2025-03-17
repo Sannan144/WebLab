@@ -4,9 +4,10 @@ import Landing from './Landing/Landing'
 import Nav from './Nav/Nav'
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import Video from './Video/Video'
 import About from './About/About'
 import Parallax from './Parallax/Parallax'
+import Solutions from './Solution/Solutions'
+import Faq from './Faq/Faq'
 
 const App = () => {
   const animDiv = useRef()
@@ -28,7 +29,7 @@ const App = () => {
       display:'none',
     })
     .from(mainDiv.current,{
-      display:'none'
+      display:'none',
     })
     .from(heading.current.querySelectorAll('span'),{
       opacity:0,
@@ -44,11 +45,13 @@ const App = () => {
   return (
     <>
     <div ref={animDiv} className='fixed z-[100] top-0 left-0 w-full h-screen bg-black'></div>
-    <div ref={mainDiv} className='w-full min-h-screen bg-black px-5'>
+    <div ref={mainDiv} className='w-full max-w-[1600px] m-auto min-h-screen bg-black px-5'>
       <Nav/>
       <Landing heading={heading} parg={parg}/>
       <About/>
       <Parallax/>
+      <Solutions/>
+      <Faq/>
     </div>
     </>
   )
