@@ -8,6 +8,7 @@ import About from './About/About'
 import Parallax from './Parallax/Parallax'
 import Solutions from './Solution/Solutions'
 import Faq from './Faq/Faq'
+import Footer from './Footer/Footer'
 
 const App = () => {
   const animDiv = useRef()
@@ -52,6 +53,7 @@ const App = () => {
       <Parallax/>
       <Solutions/>
       <Faq/>
+      <Footer/>
     </div>
     </>
   )

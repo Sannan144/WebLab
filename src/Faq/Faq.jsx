@@ -42,9 +42,8 @@ const Faq = () => {
       </h1>
 
       {faqData.map((item, index) => (
-        <div key={index} className='py-[10vw] sm:py-[40px] border-t-2 border-white w-full lg:w-[70%] m-auto font-[Poppins]' style={{ opacity: openIndex === index ? 1 : 0.7 }}>
+        <div onClick={() => toggleAnswer(index)} key={index} className='cursor-pointer py-[10vw] sm:py-[40px] border-t-2 border-white w-full lg:w-[70%] m-auto font-[Poppins]' style={{ opacity: openIndex === index ? 1 : 0.7 }}>
           <h2
-            onClick={() => toggleAnswer(index)}
             className='text-[clamp(20px,4vw,40px)] cursor-pointer mb-5'
           >
             {item.question}
