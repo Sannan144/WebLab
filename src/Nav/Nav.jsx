@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 
 
-const Nav = () => {
+const Nav = ({setShowMenu}) => {
 useGSAP(()=>{
   let tl = gsap.timeline()
   tl.from('nav h1',{
@@ -16,6 +16,12 @@ useGSAP(()=>{
     y:20
   })
 })
+
+let open = (details) => {
+  details.preventDefault()
+  setShowMenu(true)
+}
+
   return (
     <>
       <nav className='nav overflow-hidden text-white py-5 flex justify-between items-center fixed top-0 w-full max-w-[1600px] pr-10 z-[50]'>
@@ -25,7 +31,7 @@ useGSAP(()=>{
         <div className='flex gap-20 font-[Poppins]'>
 
         <ul className='gap-5 hidden sm:flex items-center font-semibold'>
-          <li><a href="#" className='hover:text-[#0DA34E] transition-all duration-300'>Cases</a></li>
+          <li><a onClick={open} href="#" className='hover:text-[#0DA34E] transition-all duration-300'>Menu</a></li>
           <li><a href="#" className='hover:text-[#0DA34E] transition-all duration-300'>OutComes</a></li>
           <li><a href="#" className='hover:text-[#0DA34E] transition-all duration-300'>News</a></li>
         </ul>
