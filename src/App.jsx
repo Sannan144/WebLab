@@ -10,6 +10,7 @@ import Solutions from './Solution/Solutions'
 import Faq from './Faq/Faq'
 import Footer from './Footer/Footer'
 import Menu from './Menu/Menu'
+import Eyes from './Eyes/Eyes'
 
 const App = () => {
 const [showMenu , setShowMenu] = useState(false)  
@@ -129,6 +130,7 @@ const [showMenu , setShowMenu] = useState(false)
       <About/>
       <Parallax/>
       <Solutions/>
+      <Eyes/>
       <Faq/>
       <Footer/>
     </div>

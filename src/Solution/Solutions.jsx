@@ -3,7 +3,7 @@ import SolutionsRight from './SolutionsRight'
 
 const Solutions = () => {
   return (
-    <div className='text-white min-h-screen'>
+    <div className='text-white h-auto'>
         
         <h1 className='text-[clamp(30px,5vw,80px)] font-bold leading-none tracking-tighter font-[Raleway] text-center mb-10 lg:w-[40%] w-full m-auto'>Digital Product and Solutions</h1>
         
