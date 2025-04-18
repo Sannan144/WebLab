@@ -7,7 +7,7 @@ const Landing = ({ heading, parg }) => {
     };
   
     return (
-      <div className='w-full pt-[25vw] md:pt-0 md:h-screen text-white flex flex-col gap-5 justify-center items-center sm:items-start md:items-center'>
+      <div className='w-full pt-[25vw] lg:pt-0 lg:h-screen text-white flex flex-col gap-5 justify-center items-center sm:items-start md:items-center'>
           <h1 ref={heading} className='capitalize w-full sm:w-[76%] md:w-[70%] text-[clamp(50px,6.5vw,100px)] font-extrabold font-[Raleway] leading-none tracking-tighter break-all overflow-hidden'>
             {wrapLettersInSpan('ux-first design agency for b2b + ai companies')}
           </h1>

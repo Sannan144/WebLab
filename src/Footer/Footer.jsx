@@ -19,7 +19,9 @@ let array4 = ["github", "facebook", "linkedin", "whatsapp"]
             <div className='font-[Poppins] flex flex-col gap-5 md:gap-10 flex-grow'>
                 <div>
                     <p className='opacity-40 mb-3'>Lets Connect</p>
-                    <button className='border border-white px-3 py-1 rounded-full'>Check Our Latest Deck</button>
+                    <button id='talk' className='cursor-pointer relative transition-all duration-300 border-2 rounded-full py-3 w-fit flex justify-center items-center overflow-hidden p-3'>
+                        <a href='#' className=' z-20 transition-all duration-300'>Check our latest deck</a> 
+                    </button>
                 </div>
                 <div>
                     <p className='opacity-40 mb-3'>Our Location</p>

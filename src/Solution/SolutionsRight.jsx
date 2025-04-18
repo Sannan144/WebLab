@@ -49,7 +49,7 @@ const SolutionsRight = () => {
 
       <div 
         style={{ gridTemplateRows: isOpen ? '20px 200px 1fr' : '20px 0fr 0fr' }} 
-        className="grid border-t-2 border-white mt-5 py-3 transition-all duration-500"
+        className="grid border-t-2 border-white mt-5 py-3 transition-all duration-500 pt-10"
       >
         <h1 
           onClick={openClose} 
@@ -61,10 +61,10 @@ const SolutionsRight = () => {
           ></div>
         </h1>
 
-        <div className="my-8 sm:my-10 flex gap-1 flex-wrap cursor-pointer overflow-hidden">
+        <div className="my-12 sm:my-10 flex gap-1 flex-wrap cursor-pointer overflow-hidden">
           {
             words.map((word, index) => (
-              <span key={index} className="border text-sm sm:text-[16px] border-white inline-block rounded-full px-1 relative h-fit">
+              <span key={index} className="border text-sm sm:text-[16px] border-white inline-block rounded-full px-1 relative h-fit ">
                 {word}
               </span>
             ))
