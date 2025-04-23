@@ -1,6 +1,6 @@
 # WebLab 🚀
 
-**WebLab** is a modern and visually appealing animated agency website clone, built using **React**, **Tailwind CSS**, and powerful animation libraries like **GSAP** and **Framer Motion**. Its is fully responsive. It delivers a dynamic landing page experience with smooth transitions and micro-interactions — all powered by cutting-edge frontend technologies.
+**WebLab** is a fully responsivee modern and visually appealing animated agency website clone, built using **React**, **Tailwind CSS**, and powerful animation libraries like **GSAP** and **Framer Motion**. It delivers a dynamic landing page experience with smooth transitions and micro-interactions — all powered by cutting-edge frontend technologies.
 
 🔗 **Live Preview:** [web-lab-eight.vercel.app](https://web-lab-eight.vercel.app/)
 
